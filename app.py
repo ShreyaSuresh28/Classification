@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load model
-model = joblib.load("C:\\Users\\shrey\\OneDrive\\Desktop\\temporary\\Classification\\WineQT.pkl")   # Make sure filename matches exactly
+model = joblib.load("\WineQT.pkl")   # Make sure filename matches exactly
 
 st.set_page_config(page_title="Wine Quality Predictor", layout="centered")
 
