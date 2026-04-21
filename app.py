@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load model
-model = joblib.load("wine_model.pkl")
+model = joblib.load("WineQT.pkl")
 
 st.set_page_config(page_title="Wine Quality Predictor", layout="centered")
 
